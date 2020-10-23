@@ -9,13 +9,14 @@ return [
      * <p class="lead">
      */
     'classes' => [
-        'h1' => 'text-3xl font-bold mt-1 mb-2 border-b',
-        'h2' => 'text-2xl font-bold my-1 border-b',
-        'h3' => 'text-xl font-bold my-1',
-        'p' => 'py-2',
-        'ul' => 'list-disc list-inside',
-        'ol' => 'list-decimal list-inside',
-        'pre' => 'my-1'
+        'h1'  => 'text-3xl font-bold mt-1 mb-2 border-b',
+        'h2'  => 'text-2xl font-bold my-1 border-b',
+        'h3'  => 'text-xl font-bold my-1',
+        'p'   => 'py-2',
+        'ul'  => 'list-disc list-inside',
+        'ol'  => 'list-decimal list-inside',
+        'a'   => 'text-blue-500 hover:underline',
+        'pre' => 'my-1',
     ],
 
     'commonmark' => [
@@ -51,7 +52,7 @@ return [
      * @markdomStyles()
      */
     'code_highlight' => [
-        'enabled' => env('MARKDOM_CODE_HIGHLIGHT', false),
+        'enabled' => env('MARKDOM_CODE_HIGHLIGHT', true),
         'theme' => 'default',
         'languages' => [
             'javascript',
