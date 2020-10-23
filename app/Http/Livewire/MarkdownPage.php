@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class MarkdownPage extends Component
 {
-    public $highlightTheme = 'default';
+    public $theme = 'default';
 
     public function render()
     {
