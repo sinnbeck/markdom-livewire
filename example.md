@@ -1,10 +1,19 @@
 # Title
 ## Subtitle
 
-* List item
-* List item 2
-1. Numbered list item
-2. Numbered list item 2
+1. First item
+2. Second item
+3. Third item
+    - Indented item
+    - Indented item
+4. Fourth item
+
+* Item
+* Item
+    1. Sub item one
+    2. Sub item two
+        * Sub sub
+* Item
 
 ### Code
 Php
